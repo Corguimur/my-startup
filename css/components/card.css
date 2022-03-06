@@ -1,0 +1,25 @@
+.card {
+display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 30px rgb(72, 189, 216, 40%);
+    border-radius: 3px;
+}
+
+.card img {
+    width: 300px;
+    border-radius: 3px;
+}
+
+.card h3 {
+    font-size: 24px;
+    padding-left: 30px;
+    flex-grow: 1;
+    color: black;
+}
+
+.card button {
+    margin-left: 10px;
+
+}

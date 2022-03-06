@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Smooch+Sans:wght@200&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+body {
+	font-family: 'Noto Serif', serif;
+	font-size : 20px;
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	font-family: 'Smooch Sans', sans-serif;
+	font-size :30px;
+	font-weight: bold;
+	color: #48BDD8;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	margin:10px
+
+}
+.list-inline{
+	list-style: none;
+	padding-left: 50px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}.list-inline i {
+	font-size: 30px;
+	color: white;
+	background:#48BDD8 ;
+	transition: color 0.5s black;
+}
